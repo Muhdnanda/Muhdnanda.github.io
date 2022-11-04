@@ -7,7 +7,7 @@ const config: GatsbyConfig = {
     wa: `628116888984`,
     linkin: `https://www.linkedin.com/in/muhammad-nanda-42293678`,
     // ig: ``,
-    // siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://muhdnanda.github.io`,
     author: `panda-67`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -16,7 +16,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     `gatsby-plugin-postcss`, 
-    `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, 
